@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Whip Central</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div class="app">
+      <div class="garage">
+        <div class="garage-image" style="background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), url('https://www.directline.com/lib/img/banner-car.png');">
+          <div class="garage-logo">
+            <img src="https://scstylecaster.files.wordpress.com/2018/03/cardi-b.jpg" alt=""/>
+          </div>
+        </div>
+        <div class="garage-info">
+          <h3 class="text-center">Le Wagon</h3>
+          <div class="garage-description">
+            Our garage is the best.
+            Reasonable price, always on time, we are the best (and fictional).
+          </div>
+          <div class="text-center">
+            <form class="car-form">
+              <input type="text" class="form-control" id="make" placeholder="Pontiac">
+              <input type="text" class="form-control" id="model" placeholder="Firebird Trans Am 1982">
+              <input type="text" class="form-control" id="owner" placeholder="Mikael">
+              <input type="submit" class="btn btn-cta">
+                Add a Car
+              </input>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="cars-list">
+        <!--  Car card below-->
+        <div class="car">
+          <div class="car-image">
+            <img src="https://www.directline.com/lib/img/banner-car.png" alt=""/>
+          </div>
+          <div class="car-info">
+            <h4>VOLKSWAGEN - Insignia</h4>
+            <p><strong>Owner:</strong> Francesca</p>
+          </div>
+        </div>
+        <!--  Car card above-->
+      </div>
+    </div>
+
+    <script src="build/application.js"></script>
+  </body>
+</html>
